@@ -573,7 +573,7 @@ public class MyProfile extends Fragment implements AppJson.AppJSONDelegate {
                     .setOnImageReceivedListener(new PickerBuilder.onImageReceivedListener() {
                         @Override
                         public void onImageReceived(Uri imageUri) {
-                       Log.e("***AAA: ", String.valueOf(imageUri));
+                            Log.e("***AAA: ", String.valueOf(imageUri));
 //                        Toast.makeText(getApplicationContext(), "Got image - " + imageUri, Toast.LENGTH_LONG).show();
                             Bitmap bitmap = null;
                             try {
